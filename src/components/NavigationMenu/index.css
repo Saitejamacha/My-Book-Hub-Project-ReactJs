@@ -1,0 +1,10 @@
+.nav-text-style {
+  color: #0284c7;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-no-color {
+  color: black;
+  font-size: 15px;
+}

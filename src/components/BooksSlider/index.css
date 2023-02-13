@@ -1,0 +1,14 @@
+.slick-con {
+  background-color: orange;
+  height: 50vh;
+  width: 75vw;
+  /* margin: 10px; */
+}
+
+@media (min-width: 768px) {
+  .slick-con {
+    background-color: lightgreen;
+    height: 50vh;
+    width: 95vw;
+  }
+}

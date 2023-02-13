@@ -1,0 +1,47 @@
+li {
+  list-style-type: none;
+}
+.shelf-name-btn {
+  height: 40px;
+  background-color: transparent;
+  border: 0px;
+  font-size: 15px;
+}
+
+.text-style {
+  color: white;
+  background-color: #0284c7;
+  border-radius: 20px;
+  min-width: 50px;
+  height: 30px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .text-style {
+    color: #0284c7;
+    font-weight: 600;
+    background-color: transparent;
+    min-width: 0px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.no-color {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 20px;
+  min-width: 50px;
+  height: 30px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .no-color {
+    color: black;
+    border: 0px;
+    min-width: 0px;
+    cursor: pointer;
+    outline: none;
+  }
+}

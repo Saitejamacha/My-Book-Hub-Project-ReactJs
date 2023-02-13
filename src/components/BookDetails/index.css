@@ -1,0 +1,130 @@
+.book-details-con {
+  width: 100vw;
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #f5f7fa; */
+  background-color: #e5e5e5;
+}
+@media (min-width: 768px) {
+  .book-details-con {
+    min-height: 130vh;
+  }
+}
+.book-details-outer-con {
+  width: 90vw;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  background-color: lightgreen;
+  background-color: #e5e5e5;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .book-details-outer-con {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    background-color: #e5e5e5;
+  }
+}
+.book-details-inner-con {
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  border-radius: 20px;
+  /* background-color: lightpink; */
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .book-details-inner-con {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+    text-align: left;
+    /* background-color: lightpink; */
+  }
+}
+
+.book-details-img {
+  width: 60vw;
+  height: 30vh;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .book-details-img {
+    width: 15vw;
+    height: 40vh;
+    border-radius: 10px;
+  }
+}
+.h-line {
+  color: black;
+  width: 75vw;
+  font-size: 30px;
+}
+.book-title {
+  font-size: 20px;
+  width: 60vw;
+}
+@media (min-width: 768px) {
+  .book-title {
+    font-size: 20px;
+    width: 15vw;
+  }
+}
+.rating-con {
+  width: 40vw;
+  height: 3vh;
+  background-color: aqua;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+@media (min-width: 768px) {
+  .rating-con {
+    width: 10vw;
+    height: 3vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+  }
+}
+
+.about-heading {
+  font-size: 25px;
+  margin-left: 2vw;
+}
+
+.about-book {
+  font-size: 25px;
+  margin-left: 2vw;
+}
+
+.about-des {
+  font-size: 15px;
+  margin-left: 2vw;
+}

@@ -1,0 +1,44 @@
+.each-book-con-list {
+  width: 80vw;
+  height: 28vh;
+  background-color: rgb(220, 236, 218);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .each-book-con-list {
+    width: 30vw;
+    height: 30vh;
+    background-color: lightblue;
+    background-color: #ffffff;
+    margin: 20px;
+  }
+}
+.book-cover-pic {
+  width: 15vh;
+  height: 25vh;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .book-cover-pic {
+    max-width: 15vw;
+    height: 28vh;
+    border-radius: 5px;
+  }
+}
+.book-details {
+  /* background-color: aqua; */
+  width: 50vw;
+}
+@media (min-width: 768px) {
+  .book-details {
+    /* background-color: aqua; */
+    width: 20vw;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}

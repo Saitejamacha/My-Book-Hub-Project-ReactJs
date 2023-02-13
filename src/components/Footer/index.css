@@ -1,0 +1,39 @@
+.footer-con {
+  width: 45vw;
+  height: 10vh;
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+@media (min-width: 768px) {
+  .footer-con {
+    width: 15vw;
+    height: 10vh;
+  }
+}
+.all-icons {
+  width: 10vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 20px;
+  height: 18px;
+}
+
+.icon-btn {
+  border-radius: 25px;
+  background-color: transparent;
+  border: 0px;
+  height: 20px;
+  margin-bottom: -12px;
+  color: #3d3c3c;
+  font-weight: 400;
+  font-size: 18px;
+}

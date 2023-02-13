@@ -1,0 +1,130 @@
+.login-con {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .login-con {
+    flex-direction: row;
+  }
+}
+.login-img {
+  width: 80vw;
+  height: 40vh;
+  border-radius: 50vw;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .login-img {
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+}
+.website-logo {
+  background-color: transparent;
+  margin-bottom: 40px;
+}
+.credentials-con {
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+  margin-top: -10px;
+}
+@media (min-width: 768px) {
+  .credentials-con {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.input-con {
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  /* background-color: aliceblue; */
+}
+@media (min-width: 768px) {
+  .input-con {
+    width: 30vw;
+    height: 55vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+  }
+}
+
+.login-Btn {
+  width: 80vw;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  margin-top: -10px;
+}
+@media (min-width: 768px) {
+  .login-Btn {
+    width: 20vw;
+    margin-top: 20px;
+  }
+}
+
+input {
+  width: 80vw;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid gray;
+  outline: none;
+  cursor: pointer;
+  margin-top: -45px;
+}
+@media (min-width: 768px) {
+  input {
+    width: 20vw;
+    height: 40px;
+    margin-top: 7px;
+  }
+}
+
+label {
+  align-self: flex-start;
+  margin-left: 5vw;
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  label {
+    align-self: flex-start;
+    margin-left: 5vw;
+    margin-top: 5px;
+  }
+}
+
+.error-mesg {
+  color: red;
+  width: 80vw;
+  align-self: flex-start;
+  margin-left: 5vw;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .error-mesg {
+    width: 20vw;
+  }
+}
